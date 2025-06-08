@@ -2,9 +2,7 @@
 node_modules
 tmp
 /data
-.env*
 !.env.domain
-.vscode/ipch
 deploy-*.sh
 dist
 
@@ -37,3 +35,6 @@ mre
 mre.exe
 mre-macos
 
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
